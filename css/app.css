@@ -1,0 +1,96 @@
+
+/* regole base */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol,menu{
+    list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.button{
+    background-color: currentColor;
+    border: none;
+    color: currentColor;
+}
+
+/* fine--regole base */
+
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    /* border: 1px solid black; */
+    /* background-color: salmon; */
+    width: 100%;
+}
+
+.main_container{
+    background-color: seagreen;
+    flex-grow: 1;
+}
+
+.bar_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    /* padding: 10px; */
+}
+
+
+/* lista bar */
+
+.list i{
+    font-size: 30px;
+}
+
+.share i{
+    color: rgb(75, 200, 0);
+}
+
+.list_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+/* .list_wrapper a{
+    padding: 10px;  ---> appare la barra scorrimento verticale
+} */
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 16px;
+}
+
+.list-bottom{
+    height: 80px;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 74, 74);
+    
+}
+
